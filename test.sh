@@ -1,0 +1,1 @@
+pf flow test --flow .
