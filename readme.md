@@ -11,3 +11,5 @@ https://python.langchain.com/docs/integrations/vectorstores/pgvector
 https://tembo.io/blog/pgvector-and-embedding-solutions-with-postgres
 
 https://www.psycopg.org/docs/usage.html
+
+https://llama-cpp-python.readthedocs.io/en/latest/server/

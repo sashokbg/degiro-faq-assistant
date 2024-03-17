@@ -3,30 +3,59 @@ inputs:
   source_file:
     type: string
     default: faqs.txt
-outputs: 
-  embeddings:
+  question:
+    type: string
+    is_chat_input: true
+    default: What is Degiro ?
+  chat_history:
     type: list
-    reference: ${create_embeddings.output}
+    default: []
+outputs:
+  answer:
+    type: string
+    reference: ${chat.output}
+    is_chat_output: true
 nodes:
-- name: embeddings_count
-  type: python
-  source:
-    type: code
-    path: embeddings_count.py
-- name: chunk_text
-  type: python
-  activate:
-    when: ${embeddings_count.output}
-    is: 0
-  source:
-    type: code
-    path: chunk_text.py
-  inputs:
-    source_file: ${inputs.source_file}
-- name: create_embeddings
-  type: python
-  source:
-    type: code
-    path: create_embeddings.py
-  inputs:
-    chunks: ${chunk_text.output}
+  - name: embeddings_count
+    type: python
+    source:
+      type: code
+      path: embeddings_count.py
+  - name: chunk_text
+    type: python
+    activate:
+      when: ${embeddings_count.output}
+      is: 0
+    source:
+      type: code
+      path: chunk_text.py
+    inputs:
+      source_file: ${inputs.source_file}
+  - name: create_embeddings
+    type: python
+    source:
+      type: code
+      path: create_embeddings.py
+    inputs:
+      chunks: ${chunk_text.output}
+  - name: vector_search
+    type: python
+    source:
+      type: code
+      path: vector_search.py
+    inputs:
+      question: ${inputs.question}
+  - name: chat
+    type: llm
+    source:
+      type: code
+      path: prompt.jinja2
+    inputs:
+      deployment_name: gpt-35-turbo
+      max_tokens: "256"
+      temperature: "0.7"
+      question: ${inputs.question}
+      search_result: ${vector_search.output}
+      chat_history: ${inputs.chat_history}
+    api: chat
+    connection: open_ai_connection

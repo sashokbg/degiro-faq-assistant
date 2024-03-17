@@ -1,0 +1,1 @@
+pf flow test --flow . --node vector_search --inputs question='How much it costs ?'
