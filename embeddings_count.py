@@ -16,23 +16,19 @@ model = SentenceTransformer('sentence-transformers/all-MiniLM-L12-v2')
 
 
 @tool
-def create_embeddings(chunks: list[Document]):
-    embeddings = model.encode(list(map(lambda chunk: chunk.page_content, chunks)))
-
+def create_embeddings():
     conn = psycopg2.connect("host=localhost dbname=postgres user=postgres password=postgres")
 
     cur = conn.cursor()
 
-    for document, embedding in zip(chunks, embeddings):
-        embedding_text = '[' + ','.join(map(str, embedding)) + ']'
+    cur.execute("SELECT count(*) FROM embeddings;")
+    result = cur.fetchone()[0]
 
-        cur.execute('INSERT INTO embeddings (title, chunk, embedding) VALUES (%s, %s, %s)',
-                    (document.metadata['Question'],
-                     document.page_content,
-                     embedding_text))
+    print(f"Result is {result}")
 
-    conn.commit()
     cur.close()
     conn.close()
 
-    return []
+    return result
+
+

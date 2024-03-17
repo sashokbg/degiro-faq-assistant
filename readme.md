@@ -7,3 +7,7 @@ https://www.sbert.net/
 https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 
 https://python.langchain.com/docs/integrations/vectorstores/pgvector
+
+https://tembo.io/blog/pgvector-and-embedding-solutions-with-postgres
+
+https://www.psycopg.org/docs/usage.html

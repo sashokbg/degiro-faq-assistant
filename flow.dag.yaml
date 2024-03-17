@@ -8,8 +8,16 @@ outputs:
     type: list
     reference: ${create_embeddings.output}
 nodes:
+- name: embeddings_count
+  type: python
+  source:
+    type: code
+    path: embeddings_count.py
 - name: chunk_text
   type: python
+  activate:
+    when: ${embeddings_count.output}
+    is: 0
   source:
     type: code
     path: chunk_text.py
