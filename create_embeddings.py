@@ -4,6 +4,7 @@ from langchain_core.documents import Document
 from promptflow import tool
 from psycopg2.extensions import register_adapter, AsIs
 from sentence_transformers import SentenceTransformer
+import json
 
 
 def adapt_numpy_array(numpy_array):
@@ -26,8 +27,9 @@ def create_embeddings(chunks: list[Document]):
     for document, embedding in zip(chunks, embeddings):
         embedding_text = '[' + ','.join(map(str, embedding)) + ']'
 
-        cur.execute('INSERT INTO embeddings (title, chunk, embedding) VALUES (%s, %s, %s)',
-                    (document.metadata['Question'],
+        cur.execute('INSERT INTO embeddings (title, link, chunk, embedding) VALUES (%s, %s, %s, %s)',
+                    (document.metadata['title'],
+                     document.metadata['link'],
                      document.page_content,
                      embedding_text))
 

@@ -1,8 +1,7 @@
-from typing import List
 
 from langchain_core.documents import Document
-from promptflow import tool
 from langchain_text_splitters import MarkdownHeaderTextSplitter
+from promptflow import tool
 
 
 @tool
@@ -12,12 +11,12 @@ def chunk_text(source_file: str) -> list[Document]:
     file.close()
 
     headers_to_split_on = [
-        ("#", "Question"),
-        ("##", "Header 2"),
+        ("#", "title"),
+        ("##", "link")
     ]
 
     markdown_splitter = MarkdownHeaderTextSplitter(
-        headers_to_split_on=headers_to_split_on,
+        headers_to_split_on=headers_to_split_on
     )
 
     docs = markdown_splitter.split_text(markdown_text)

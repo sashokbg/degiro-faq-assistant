@@ -2,7 +2,7 @@ $schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
 inputs:
   source_file:
     type: string
-    default: faqs.txt
+    default: faq.md
   question:
     type: string
     is_chat_input: true

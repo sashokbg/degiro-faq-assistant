@@ -24,10 +24,10 @@ def vector_search(question) -> list[str]:
     cur = conn.cursor(cursor_factory=RealDictCursor)
 
     sql = """
-        SELECT title, chunk, 1-(embedding <=> %s) as cosine_similarity 
+        SELECT title, link, chunk, 1-(embedding <=> %s) as cosine_similarity 
         FROM embeddings 
         ORDER BY cosine_similarity 
-        DESC LIMIT 2;"""
+        DESC LIMIT 3;"""
 
     cur.execute(sql, (query_string,))
     result = cur.fetchmany(2)
