@@ -8,13 +8,22 @@ const baseUrl = 'https://www.degiro.com';
 const sections = [
   '/uk/helpdesk/about-degiro',
   '/uk/helpdesk/account-and-personal-details',
+  '/uk/helpdesk/account-and-personal-details?page=1',
   '/uk/helpdesk/become-client',
   '/uk/helpdesk/fees',
   '/uk/helpdesk/money-transfers-and-handling',
+  '/uk/helpdesk/money-transfers-and-handling?page=1',
   '/uk/helpdesk/orders',
+  '/uk/helpdesk/orders?page=1',
   '/uk/helpdesk/trading-platform',
+  '/uk/helpdesk/trading-platform?page=1',
+  '/uk/helpdesk/trading-platform?page=2',
   '/uk/helpdesk/trading-possibilities',
-  '/uk/helpdesk/tax'
+  '/uk/helpdesk/trading-possibilities?page=1',
+  '/uk/helpdesk/trading-possibilities?page=2',
+  '/uk/helpdesk/tax',
+  '/uk/helpdesk/tax?page=1',
+  '/uk/helpdesk/tax?page=2'
 ]
 
 const extract = async (section) => {
@@ -27,7 +36,7 @@ const extract = async (section) => {
 
   for (const row of rows) {
     let link = baseUrl + row.attribs.href;
-    let subBody = await (await fetch(baseUrl + link)).text();
+    let subBody = await (await fetch(link)).text();
 
     const $$ = cheerio.load(subBody);
 

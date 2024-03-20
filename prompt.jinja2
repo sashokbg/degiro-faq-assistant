@@ -9,7 +9,6 @@ user:
 
 Write an answer given the available information bellow.
 Always cite the FAQ title and link at the end.
-If none of the items is relevant, answer by saying you do not know.
 
 {% for item in search_result %}
     FAQ Title: {{item.title}}
@@ -17,4 +16,3 @@ If none of the items is relevant, answer by saying you do not know.
     Content: {{item.chunk}}
 {% endfor %}
 [/INST]
-</s>

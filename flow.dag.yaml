@@ -1,8 +1,5 @@
 $schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
 inputs:
-  source_file:
-    type: string
-    default: faq.md
   question:
     type: string
     is_chat_input: true
@@ -21,6 +18,14 @@ nodes:
     source:
       type: code
       path: embeddings_count.py
+  - name: scrap_data
+    type: python
+    activate:
+      when: ${embeddings_count.output}
+      is: 0
+    source:
+      type: code
+      path: scrap_data.py
   - name: chunk_text
     type: python
     activate:
@@ -30,7 +35,7 @@ nodes:
       type: code
       path: chunk_text.py
     inputs:
-      source_file: ${inputs.source_file}
+      source_file: ${scrap_data.output}
   - name: create_embeddings
     type: python
     source:
