@@ -1,6 +1,6 @@
 # How is my money held?
 
-## /uk/helpdesk/about-degiro/how-my-money-held
+## https://degiro.com/uk/helpdesk/about-degiro/how-my-money-held
 
 When you become a client of DEGIRO UK, you give a standing order to invest money into a Money Market Fund (MMF). This standing order serves as the cash position you will see in your account. You will be able to use the value of this position to finance your investments.
 
@@ -18,7 +18,7 @@ We use MMFs instead of Cash Accounts for clients of our UK platform because our 
 
 # If something happens to DEGIRO, are my investments protected?
 
-## /uk/helpdesk/about-degiro/safeguarded/if-something-happens-degiro-are-my-investments-protected
+## https://degiro.com/uk/helpdesk/about-degiro/safeguarded/if-something-happens-degiro-are-my-investments-protected
 
 In the event that something were to happen to DEGIRO, the segregation of client assets ensures that your funds and positions will not be affected. Client assets are held separately from DEGIRO assets, and are not treated as recoverable assets to DEGIRO's creditors. In the event that something happens to DEGIRO, your assets will still belong to you.
 
@@ -30,7 +30,7 @@ However, this is not the case. Asset segregation is in place to protect client a
 
 # How are my investments held?
 
-## /uk/helpdesk/about-degiro/safeguarded/how-are-my-investments-held
+## https://degiro.com/uk/helpdesk/about-degiro/safeguarded/how-are-my-investments-held
 
 In the financial world there are several methods of holding financial assets. A common method frequently used throughout the financial world is to hold assets on so-called omnibus accounts. This is a type of account on which many different items can be held at the same time, instead of needing a lot of different and separate accounts. These accounts are generally held by a custodian: a bank or other financial institution that holds and keeps (records of) their client's assets.If you trade financial instruments via DEGIRO, you trade via this omnibus structure. The omnibus accounts that are used to hold your assets are held at our custodian(s) and are kept in the name of 4 different special legal entities, called Special Purpose Vehicles (SPV's), that have the sole purpose of safeguarding and administering your assets. All the shares bought and sold by our clients are debited or credited to the related SPV's account. These SPV's are a specific type of legal entity, called a 'stichting' under Dutch law, which obligates them to act only in accordance with the previously established goal of maintaining and administering your investments and thus prohibits them from engaging in commercial activities. More details about these SPV's can be found in our Client Agreement (most notably Articles 1, 17, and 18) and the ISI - Investment Services.  What does this mean for me?One of the most important consequences of this method of holding financial assets is that an omnibus account can greatly reduce the transaction costs involved in trading on the financial markets. Whereas a structure whereby all the assets are kept on separate accounts would involve many different transactions, and thus more transaction costs, by using the omnibus account all the various transactions made can be aggregated to keep the costs low.
 
@@ -40,7 +40,7 @@ ISI - Investment Services
 
 # How are DEGIRO's fees so low?
 
-## /uk/helpdesk/about-degiro/history-degiro/how-are-degiros-fees-so-low
+## https://degiro.com/uk/helpdesk/about-degiro/history-degiro/how-are-degiros-fees-so-low
 
 DEGIRO offers access trading at exceptionally low costs. We do not consider DEGIRO’s fees to be low, rather that other brokers are needlessly expensive
 
@@ -48,7 +48,7 @@ In 2013, DEGIRO launched retail services and brought a platform built for profes
 
 # Who is DEGIRO?
 
-## /uk/helpdesk/about-degiro/history-degiro/who-degiro
+## https://degiro.com/uk/helpdesk/about-degiro/history-degiro/who-degiro
 
 DEGIRO is a wholesale, online stockbroker. We provide an online platform for all types of investors. All of our clients trade with incredibly low fees on markets worldwide.
 
@@ -56,7 +56,7 @@ DEGIRO began as an institutional broker in 2008 servicing professional clients. 
 
 # Are my investments segregated from the DEGIRO assets?
 
-## /uk/helpdesk/about-degiro/safeguarded/are-my-investments-segregated-degiro-assets
+## https://degiro.com/uk/helpdesk/about-degiro/safeguarded/are-my-investments-segregated-degiro-assets
 
 Yes. The safekeeping of your investments is our highest priority.
 
@@ -64,13 +64,13 @@ DEGIRO uses a separate custodian entity to hold your assets, which means they ar
 
 # Who regulates DEGIRO?
 
-## /uk/helpdesk/about-degiro/safeguarded/who-regulates-degiro
+## https://degiro.com/uk/helpdesk/about-degiro/safeguarded/who-regulates-degiro
 
 flatexDEGIRO Bank Dutch Branch, trading under the name DEGIRO, is the Dutch branch of flatexDEGIRO Bank AG. flatexDEGIRO Bank AG is primarily supervised by the German financial regulator (BaFin). In the Netherlands, flatexDEGIRO Bank Dutch Branch is registered with DNB and supervised by AFM and DNB.
 
 # How can I change my address?
 
-## /uk/helpdesk/account-and-personal-details/your-personal-details/how-can-i-change-my-address
+## https://degiro.com/uk/helpdesk/account-and-personal-details/your-personal-details/how-can-i-change-my-address
 
 If you want to change your residential address, simply follow these steps:
 
@@ -86,7 +86,7 @@ Note	If your new address impacts your tax liabilities, also be sure to change y
 
 # How can I enable two-step authentication on my account?
 
-## /uk/helpdesk/account-and-personal-details/how-can-i-enable-two-step-authentication-my-account
+## https://degiro.com/uk/helpdesk/account-and-personal-details/how-can-i-enable-two-step-authentication-my-account
 
 What is two-factor authentication?
 
@@ -120,13 +120,13 @@ Another common issue is when the time settings on your device are not correct. T
 
 # How can I change my name in my DEGIRO account?
 
-## /uk/helpdesk/account-and-personal-details/your-personal-details/how-can-i-change-my-name-my-degiro-account
+## https://degiro.com/uk/helpdesk/account-and-personal-details/your-personal-details/how-can-i-change-my-name-my-degiro-account
 
 For security reasons, it is not possible to change or edit the name of the account holder yourself. If you need to change the name of the account holder, please contact our Service Desk.
 
 # How do I update my linked bank account?
 
-## /uk/helpdesk/account-and-personal-details/your-personal-details/how-do-i-update-my-linked-bank-account
+## https://degiro.com/uk/helpdesk/account-and-personal-details/your-personal-details/how-do-i-update-my-linked-bank-account
 
 You can view your linked bank account(s) by going to 'Profile' > 'Linked bank accounts' in the platform. If you'd like to add an additional bank account, click 'Link new account' and follow the procedure shown. All linked bank accounts must be in your name. If the bank account you'd like to add is a joint account, please send proof of payment with all the names of the account holders clearly visible to clients@degiro.com.
 
@@ -142,7 +142,7 @@ Please note that we can't link a bank account if it's held at a financial instit
 
 # I have forgotten my username/password. What do I do now?
 
-## /uk/helpdesk/account-and-personal-details/i-have-forgotten-my-usernamepassword-what-do-i-do-now
+## https://degiro.com/uk/helpdesk/account-and-personal-details/i-have-forgotten-my-usernamepassword-what-do-i-do-now
 
 If you can no longer access your account because you have forgotten or lost your username or password, there are several things you can try to retrieve this information. Click on the headings below to discover which steps to take, depending on your situation.
 
@@ -154,7 +154,7 @@ However, if your account has already been blocked because you have exceeded the 
 
 # How do I close my account?
 
-## /uk/helpdesk/account-and-personal-details/your-personal-details/how-do-i-close-my-account
+## https://degiro.com/uk/helpdesk/account-and-personal-details/your-personal-details/how-do-i-close-my-account
 
 To close your DEGIRO account, please make sure your account is empty. This means you should hold no positions, have real-time subscriptions disabled and all funds should be withdrawn.
 
@@ -162,19 +162,19 @@ Once your account is empty, please contact our service desk by e-mail, who can c
 
 # My account has been blocked. How do I regain access?
 
-## /uk/helpdesk/account-and-personal-details/my-account-has-been-blocked-how-do-i-regain-access
+## https://degiro.com/uk/helpdesk/account-and-personal-details/my-account-has-been-blocked-how-do-i-regain-access
 
 DEGIRO takes the security of your account seriously. If your account is blocked, please contact our service desk directly to find out why, and to regain access.Please be prepared to answer security questions about your account when calling our service desk.
 
 # Where can I find my account number?
 
-## /uk/helpdesk/account-and-personal-details/your-personal-details/where-can-i-find-my-account-number-0
+## https://degiro.com/uk/helpdesk/account-and-personal-details/your-personal-details/where-can-i-find-my-account-number-0
 
 Your investment account does not have a unique account number. The username of your investment account serves as your unique account identifier.
 
 # What are the different profiles offered by DEGIRO?
 
-## /uk/helpdesk/account-and-personal-details/profiles/what-are-different-profiles-offered-degiro
+## https://degiro.com/uk/helpdesk/account-and-personal-details/profiles/what-are-different-profiles-offered-degiro
 
 DEGIRO offers 4 different profile types:
 
@@ -186,7 +186,7 @@ The investment risks associated with each account profile are lowest in Basic pr
 
 # How do I change my e-mail address?
 
-## /uk/helpdesk/account-and-personal-details/your-personal-details/how-do-i-change-my-e-mail-address
+## https://degiro.com/uk/helpdesk/account-and-personal-details/your-personal-details/how-do-i-change-my-e-mail-address
 
 If you want to change your e-mail address, follow these steps:
 
@@ -200,7 +200,7 @@ Log in to your account.
 
 # Can I change my username?
 
-## /uk/helpdesk/account-and-personal-details/your-personal-details/can-i-change-my-username
+## https://degiro.com/uk/helpdesk/account-and-personal-details/your-personal-details/can-i-change-my-username
 
 The username of your investment account also serves as your unique account identifier. Unfortunately, this is why the username of your account cannot be changed.
 
@@ -212,7 +212,7 @@ Once you have opened a new account and no longer need the old one, you are welco
 
 # What is the Day Trader profile?
 
-## /uk/helpdesk/account-and-personal-details/profiles/what-day-trader-profile
+## https://degiro.com/uk/helpdesk/account-and-personal-details/profiles/what-day-trader-profile
 
 A Day Trader Profile allows you to trade more actively during the time that DEGIRO and relevant markets are open. Separate limits and conditions apply to the Day Trader profile between 8:00 and 21:30 CET. Risk will be calculated in a different way than under the other Profiles and as a consequence, with the same amount of Security Value, more exposure can be taken. Please, see the document Security Value, Risk, Debit Money and Debit Securities for further information.
 
@@ -220,7 +220,7 @@ For more details and to request a Day Trader account, please contact our Service
 
 # What is the difference between an Active and Trader Account?
 
-## /uk/helpdesk/account-and-personal-details/profiles/what-difference-between-active-and-trader-account
+## https://degiro.com/uk/helpdesk/account-and-personal-details/profiles/what-difference-between-active-and-trader-account
 
 Basic account holders who wish to trade using margin from DEGIRO, short sell securities, or trade derivatives, can upgrade to an Active or a Trader account. Upgrading your account is free.
 
@@ -232,7 +232,7 @@ Please see the document Security Value, Risk, Debit Money and Debit Securities 
 
 # I have changed my banking details. How do I update my linked bank accounts?
 
-## /uk/helpdesk/account-and-personal-details/your-personal-details/i-have-changed-my-banking-details-how-do-i
+## https://degiro.com/uk/helpdesk/account-and-personal-details/your-personal-details/i-have-changed-my-banking-details-how-do-i
 
 It is possible to view the Linked Bank accounts in your Profile page in the trading platform.
 
@@ -242,7 +242,7 @@ Your primary bank account is the only bank account to which you may make deposit
 
 # What to do in the event of the passing of a DEGIRO account holder?
 
-## /uk/helpdesk/account-and-personal-details/what-do-event-passing-degiro-account-holder
+## https://degiro.com/uk/helpdesk/account-and-personal-details/what-do-event-passing-degiro-account-holder
 
 The passing of a loved one marks a difficult period.  We will always help you process the paperwork with care and patience.
 
@@ -255,7 +255,7 @@ To handle the process in the best way, we kindly request you to complete the fol
 
 # How do I open a DEGIRO Account?
 
-## /uk/helpdesk/become-client/registering-degiro-account/how-do-i-open-degiro-account
+## https://degiro.com/uk/helpdesk/become-client/registering-degiro-account/how-do-i-open-degiro-account
 
 You can open a free account via the DEGIRO app. If you do not have the app installed, you can download it using the below links:
 
@@ -277,7 +277,7 @@ If under IRS guidelines you are considered a US person, we are unable to accept 
 
 # I am being asked to choose a profile. What are the different profile types?
 
-## /uk/helpdesk/become-client/registering-degiro-account/i-am-being-asked-choose-profile-what-are-different-profile
+## https://degiro.com/uk/helpdesk/become-client/registering-degiro-account/i-am-being-asked-choose-profile-what-are-different-profile
 
 A Basic profile is the default account type when you register with DEGIRO. If desired you can upgrade a Basic account to an Active, Trader or Day Trader account, which will allow you to access Debit Money (the ability to trade using margin from DEGIRO), Debit Securities (short selling) and Derivatives.
 
@@ -285,7 +285,7 @@ Please refer the the following document for more information on the different pr
 
 # Can I open a demo account?
 
-## /uk/helpdesk/become-client/registering-degiro-account/can-i-open-demo-account
+## https://degiro.com/uk/helpdesk/become-client/registering-degiro-account/can-i-open-demo-account
 
 Demo accounts are not available for the simple reason that opening a DEGIRO account is completely free of charge. This way, you can familiarize yourself with our trading platform, and start investing once you're ready.
 
@@ -293,7 +293,7 @@ You can open an account here.
 
 # Can I create a sub- account for my account?
 
-## /uk/helpdesk/become-client/registering-degiro-account/can-i-create-sub-account-my-account
+## https://degiro.com/uk/helpdesk/become-client/registering-degiro-account/can-i-create-sub-account-my-account
 
 It is not possible to create a sub-account or to maintain more than one portfolio within the same account.
 
@@ -301,13 +301,13 @@ However, you are welcome to open/maintain more than one account with us. You ca
 
 # Can I open an account for my child?
 
-## /uk/helpdesk/become-client/registering-degiro-account/can-i-open-account-my-child
+## https://degiro.com/uk/helpdesk/become-client/registering-degiro-account/can-i-open-account-my-child
 
 Unfortunately, due to increasing requirements resulting from stricter Customer Due Diligence (CDD) laws and regulations for persons under the age of 18, we have stopped opening accounts for minors in 2018.
 
 # What information will I need to provide when registering?
 
-## /uk/helpdesk/become-client/registering-degiro-account/what-information-will-i-need-provide-when-registering
+## https://degiro.com/uk/helpdesk/become-client/registering-degiro-account/what-information-will-i-need-provide-when-registering
 
 When registering, we ask that you register with your full name (including middle names) as it appears on your identification.
 
@@ -326,7 +326,7 @@ Your full name
 
 # Can I hold several accounts with DEGIRO?
 
-## /uk/helpdesk/become-client/registering-degiro-account/can-i-hold-several-accounts-degiro
+## https://degiro.com/uk/helpdesk/become-client/registering-degiro-account/can-i-hold-several-accounts-degiro
 
 You can open as many investment accounts with us as you like. Opening and holding an investment account is free of charge.
 
@@ -336,13 +336,13 @@ You can open another investment account here.
 
 # Can I open a business account?
 
-## /uk/helpdesk/become-client/registering-degiro-account/can-i-open-business-account
+## https://degiro.com/uk/helpdesk/become-client/registering-degiro-account/can-i-open-business-account
 
 Due to increasing requirements resulting from stricter Customer Due Diligence (CDD) laws and regulations for corporate clients,  we can no longer offer business/corporate accounts.
 
 # Will DEGIRO ask me for proof of wealth?
 
-## /uk/helpdesk/become-client/registering-degiro-account/will-degiro-ask-me-proof-wealth
+## https://degiro.com/uk/helpdesk/become-client/registering-degiro-account/will-degiro-ask-me-proof-wealth
 
 As a financial institution and Dutch branch of flatexDEGIRO Bank AG, regulated by the Dutch Authority for the Financial Markets (Autoriteit Financiële Markten, “AFM”), we are legally obliged to comply with the requirements of the Act on Prevention of Money Laundering and Financing of Terrorism (Wet ter voorkoming van witwassen en financieren van terrorisme, "Wwft").
 
@@ -352,7 +352,7 @@ We understand that these kinds of inquiries might be inconvenient and uncomforta
 
 # Are there fees for trading in another currency?
 
-## /uk/helpdesk/fees/trading-fees/are-there-fees-trading-another-currency
+## https://degiro.com/uk/helpdesk/fees/trading-fees/are-there-fees-trading-another-currency
 
 Yes, trading in or with foreign currencies comes with a conversion cost. However, how much a given trade in or with a foreign currency will cost depends on whether you have enabled automatic currency conversion (AutoFX).
 
@@ -362,13 +362,13 @@ When a currency conversion occurs on your account, you will see the entries FX C
 
 # Where can I find the fees for trading with DEGIRO? Are there any hidden fees?
 
-## /uk/helpdesk/fees/trading-fees/where-can-i-find-fees-trading-degiro-are-there-any-hidden-fees
+## https://degiro.com/uk/helpdesk/fees/trading-fees/where-can-i-find-fees-trading-degiro-are-there-any-hidden-fees
 
 All fees that DEGIRO charges can be found on the Fee Schedule and  Custody Fee Schedule. DEGIRO is fully transparent about our fees.There are no fees which do not appear on our fee schedule; there are no inactivity fees, nor is there a minimum trading amount imposed on account holders.
 
 # Why are there commission fees charged for an ETF from the ETF core selection list?
 
-## /uk/helpdesk/fees/trading-fees/why-are-there-commission-fees-charged-etf-etf-core-selection-list
+## https://degiro.com/uk/helpdesk/fees/trading-fees/why-are-there-commission-fees-charged-etf-etf-core-selection-list
 
 If you have been charged with commission fees for an ETF that is part of the Core Selection, this is probably because not all of the conditions of the fair use policy have been met or because the ETF you have purchased or sold was listed on a different exchange than the one from the Core Selection
 
@@ -380,13 +380,13 @@ If you are need any assistance, do not hesitate to contact our Service Desk.
 
 # Are there any costs for depositing or withdrawing funds?
 
-## /uk/helpdesk/fees/other-costs/are-there-any-costs-depositing-or-withdrawing-funds
+## https://degiro.com/uk/helpdesk/fees/other-costs/are-there-any-costs-depositing-or-withdrawing-funds
 
 No, DEGIRO does not charge clients for depositing or withdrawing funds.
 
 # What is the Exchange Connection Fee?
 
-## /uk/helpdesk/fees/trading-fees/what-exchange-connection-fee
+## https://degiro.com/uk/helpdesk/fees/trading-fees/what-exchange-connection-fee
 
 To send your orders to the stock exchanges, we need a direct connection to these exchanges. The exchange connection fee is simply the costs involved in establishing and maintaining these connections.
 
@@ -396,7 +396,7 @@ Check our Fees page and Fee Schedule for more information.
 
 # Do I need to pay for price feeds on the DEGIRO platform?
 
-## /uk/helpdesk/fees/other-costs/do-i-need-pay-price-feeds-degiro-platform
+## https://degiro.com/uk/helpdesk/fees/other-costs/do-i-need-pay-price-feeds-degiro-platform
 
 No, free price feeds are provided. However, in some cases, the free price feed will have a 15-minute delay. In these cases, it is possible to upgrade to real-time price feeds for a monthly subscription fee if you wish.
 
@@ -404,7 +404,7 @@ The subscription fee for real-time price feeds on each exchange can be found on 
 
 # What do implicit transaction costs in the Annual Costs and Charges Statement mean?
 
-## /uk/helpdesk/fees/other-costs/what-do-implicit-transaction-costs-annual-costs-and-charges-statement-mean
+## https://degiro.com/uk/helpdesk/fees/other-costs/what-do-implicit-transaction-costs-annual-costs-and-charges-statement-mean
 
 Implicit transaction costs show the cost of the bid-ask spread. These are external costs that depend on the difference between the middle price and the spread during order execution and do not arise from DEGIRO.
 
@@ -414,7 +414,7 @@ These are not separate costs that have been charged but are included in the purc
 
 # How do I transfer funds to my DEGIRO account?
 
-## /uk/helpdesk/money-transfers-and-handling/how-do-i-transfer-funds-my-degiro-account
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/how-do-i-transfer-funds-my-degiro-account
 
 You can deposit new funds into your investment account via a manual bank transfer. Please note that we can only process a deposit from your reference account. It is not possible to link a bank account held in the name of a company or other person. Here's how it works:
 
@@ -425,7 +425,7 @@ Please note: if you have multiple accounts with us, and the bank details show th
 
 # How do I withdraw funds back to my bank account?
 
-## /uk/helpdesk/money-transfers-and-handling/how-do-i-withdraw-funds-back-my-bank-account
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/how-do-i-withdraw-funds-back-my-bank-account
 
 You can withdraw funds from your DEGIRO account back to your primary registered bank account by clicking on Deposit/Withdraw funds in the right upper corner of the trading platform. In the app, you can find this section by clicking on the menu in the left upper corner and then choosing "Deposit/Withdraw
 
@@ -433,7 +433,7 @@ You cannot withdraw funds that are currently invested. Please note that withdraw
 
 # Can I trade on margin from DEGIRO?
 
-## /uk/helpdesk/money-transfers-and-handling/trading-margin/can-i-trade-margin-degiro
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/trading-margin/can-i-trade-margin-degiro
 
 Yes, it is possible to trade on margin from DEGIRO. This service is referred to as Debit Money.
 
@@ -445,7 +445,7 @@ For full information please see the document Debit Money Conditions.
 
 # What should I do if I have deposited money from the wrong bank account?
 
-## /uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/what-should-i-do-if-i-have-deposited-money
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/what-should-i-do-if-i-have-deposited-money
 
 If you have completed a deposit with a bank account that is not verified and linked to your investment account, the funds cannot be booked into your account. In the account statement of your DEGIRO account, you will see that this deposit was declined even though the funds will have been debited from your bank account.We can hold a deposit received for a maximum of 5 business days in case you would like to use this deposit as a verification deposit to link the new bank account. If the deposit cannot be processed within this period, it will automatically be returned to the account from which the deposit originated. Also, please be aware that you can only change your primary bank account three times per year.
 
@@ -453,13 +453,13 @@ If you would like to have the deposit returned before the 5 business days have p
 
 # Why does a payment task keep appearing in my account?
 
-## /uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/why-does-payment-task-keep-appearing-my
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/why-does-payment-task-keep-appearing-my
 
 If you have begun to link a new bank account, but aborted the process, the form 'Connect bank account' will remain visible in your Trading Platform. If you would like to remove or complete this task, go to "Linked bank accounts" within your personal profile. You can then cancel or continue the process by clicking on "Edit" and "Cancel" or "Continue", to the right of "Pending verification payment".
 
 # My transfer hasn't arrived in my account. What should I do?
 
-## /uk/helpdesk/money-transfers-and-handling/my-transfer-hasnt-arrived-my-account-what-should-i-do
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/my-transfer-hasnt-arrived-my-account-what-should-i-do
 
 Transfers can take up to 2-3 working days to complete.
 
@@ -471,7 +471,7 @@ If none of the above is the case, please contact our service desk by e-mail.
 
 # I am trying to withdraw my full balance, but I receive an error. How do I withdraw my funds?
 
-## /uk/helpdesk/money-transfers-and-handling/i-am-trying-withdraw-my-full-balance-i-receive-error-how-do-i-withdraw
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/i-am-trying-withdraw-my-full-balance-i-receive-error-how-do-i-withdraw
 
 It is not possible to withdraw funds which are currently invested. Only uninvested cash- the funds held in your Cash Account- can be withdrawn.
 
@@ -479,13 +479,13 @@ Your balance is the sum of the positions in your portfolio, your Cash Account, a
 
 # Can I deposit to more than one DEGIRO account with the same bank account?
 
-## /uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/can-i-deposit-more-one-degiro-account-same
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/can-i-deposit-more-one-degiro-account-same
 
 Yes, you can use the same bank accounts to fund multiple investment accounts.
 
 # What is Allocation and how does it work?
 
-## /uk/helpdesk/money-transfers-and-handling/what-allocation-and-how-does-it-work
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/what-allocation-and-how-does-it-work
 
 When you’re using Margin Loan (Debit Money), your cash balance is negative, and standard interest of 6.90% is being charged.
 
@@ -505,19 +505,19 @@ Allocation is an ongoing service. Once you add or edit an allocation, it will re
 
 # Can I make a transfer in another currency?
 
-## /uk/helpdesk/money-transfers-and-handling/can-i-make-transfer-another-currency
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/can-i-make-transfer-another-currency
 
 No, it is only possible to deposit using the base currency of your DEGIRO account.
 
 # Can I withdraw in another currency?
 
-## /uk/helpdesk/money-transfers-and-handling/can-i-withdraw-another-currency
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/can-i-withdraw-another-currency
 
 No, this is unfortunately not possible. All withdrawals must be in the base currency of your account.
 
 # What does a Cash sweep mean?
 
-## /uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/what-does-cash-sweep-mean
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/what-does-cash-sweep-mean
 
 Daily cash sweeps are administrative transfers between your personal flatexDEGIRO cash account and your DEGIRO account. At the end of each business day, a calculation is made to determine if more money has been received on your DEGIRO account, or if more money has been spent.
 
@@ -527,13 +527,13 @@ The daily cash sweeps are visible in the account statement by turning off the sl
 
 # How many bank accounts can I link to my investment account?
 
-## /uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/how-many-bank-accounts-can-i-link-my
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/deposits-and-withdrawals/how-many-bank-accounts-can-i-link-my
 
 To deposit and withdraw funds into and out of your investment account, you need to link and verify your personal bank account. You can link up to two accounts to your investment account. However, we can only process withdrawals to your primary reference account. If you would like to use another bank account to receive withdrawals, you can change your primary reference account. Please note that you can change your reference account 3 times within 12 months.
 
 # Can I transfer through a third party service?
 
-## /uk/helpdesk/money-transfers-and-handling/can-i-transfer-through-third-party-service
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/can-i-transfer-through-third-party-service
 
 No, DEGIRO only accepts direct bank to bank transfers. All transfers should be made directly from your registered bank account.
 
@@ -541,7 +541,7 @@ We do not accept transfers sent via a third party such as PayPal or Wise.
 
 # I am trading on margin and now my account is in deficit. What should I do?
 
-## /uk/helpdesk/money-transfers-and-handling/trading-margin/i-am-trading-margin-and-now-my-account-deficit-what
+## https://degiro.com/uk/helpdesk/money-transfers-and-handling/trading-margin/i-am-trading-margin-and-now-my-account-deficit-what
 
 Your Available to Trade amount is the sum of your Cash Account, cash held in other currencies, and your available margin. If this value becomes negative, you have exceeded your available margin from DEGIRO.In this case, please either close an open position(s) or make a deposit to your DEGIRO account to cover the deficit.
 
@@ -566,7 +566,7 @@ More information regarding our margin system and the deficit procedure can be fo
 
 # What is the order duration?
 
-## /uk/helpdesk/orders/what-order-duration
+## https://degiro.com/uk/helpdesk/orders/what-order-duration
 
 When placing an order, you select whether you want the duration to be a Day order or GTC (Good-Till-Cancelled).
 
@@ -576,7 +576,7 @@ A GTC (Good-till-Cancelled) order, on the other hand, will roll over into the ne
 
 # What is the difference between a stop loss order and a stop limit order?
 
-## /uk/helpdesk/orders/what-difference-between-stop-loss-order-and-stop-limit-order
+## https://degiro.com/uk/helpdesk/orders/what-difference-between-stop-loss-order-and-stop-limit-order
 
 Stop Loss orders are designed to limit your loss if a share that you hold falls in price. As soon as the price of a share reaches your Stop price this triggers a Market order to be sent to the place of execution. Dependent on the place of execution, this order type is offered by the exchange or simulated in the IT systems of DEGIRO. In the latter case, this is on a best-effort basis.
 
@@ -594,7 +594,7 @@ You can learn more about order types in our Investor Academy.
 
 # What are the different order types?
 
-## /uk/helpdesk/orders/what-are-different-order-types
+## https://degiro.com/uk/helpdesk/orders/what-are-different-order-types
 
 The order types available with DEGIRO are:
 
@@ -609,7 +609,7 @@ You can learn more about order types in our Investor Academy.
 
 # Why has my order has been rejected?
 
-## /uk/helpdesk/orders/why-has-my-order-has-been-rejected
+## https://degiro.com/uk/helpdesk/orders/why-has-my-order-has-been-rejected
 
 There are a number of reasons why an order might not be accepted. DEGIRO offers access to exchanges worldwide, each with varying rules of acceptability for an order to be eligible for execution.
 
@@ -629,13 +629,13 @@ DEGIRO suggests familiarising yourself with the rules and conditions of the exch
 
 # Does DEGIRO offer fractional shares?
 
-## /uk/helpdesk/orders/does-degiro-offer-fractional-shares
+## https://degiro.com/uk/helpdesk/orders/does-degiro-offer-fractional-shares
 
 We do not offer trading in fractional shares on our platform. We only facilitate trading in whole shares.
 
 # How do I place an order?
 
-## /uk/helpdesk/orders/placing-order/how-do-i-place-order
+## https://degiro.com/uk/helpdesk/orders/placing-order/how-do-i-place-order
 
 All orders can be placed using the trading platform (Webtrader, Android or iOS app).
 
@@ -658,7 +658,7 @@ If you are not able to place an order via the trading platform there is also the
 
 # Why was a transaction executed without my confirmation?
 
-## /uk/helpdesk/orders/execution-policy/why-was-transaction-executed-without-my-confirmation
+## https://degiro.com/uk/helpdesk/orders/execution-policy/why-was-transaction-executed-without-my-confirmation
 
 If you see that a transaction has taken place without your knowledge or consent, this is usually due to the processing of a (mandatory) corporate action. Examples of such events are ISIN or name changes or (reverse) stock splits.
 
@@ -670,7 +670,7 @@ If you want to find out more about the specific corporate action, you can usuall
 
 # What is an Order ID and where can I find it?
 
-## /uk/helpdesk/orders/order-issues/what-order-id-and-where-can-i-find-it
+## https://degiro.com/uk/helpdesk/orders/order-issues/what-order-id-and-where-can-i-find-it
 
 What is an Order ID?
 
@@ -690,7 +690,7 @@ This will open the order information window, which will include the Order ID.
 
 # What is the difference between a limit order and a market order?
 
-## /uk/helpdesk/orders/what-difference-between-limit-order-and-market-order
+## https://degiro.com/uk/helpdesk/orders/what-difference-between-limit-order-and-market-order
 
 With a Market order, you place an order to execute your transaction at the current best available price. There is no upper bound on this price. With less liquid products, you may receive a worse price than what you anticipated. We therefore strongly advise you to treat this type of order with care.
 
@@ -702,13 +702,13 @@ You can learn more about order types in our Investor Academy.
 
 # Do DEGIRO offer Pre-Market and After-Hours trading?
 
-## /uk/helpdesk/orders/execution-policy/do-degiro-offer-pre-market-and-after-hours-trading
+## https://degiro.com/uk/helpdesk/orders/execution-policy/do-degiro-offer-pre-market-and-after-hours-trading
 
 We offer the opportunity to trade for longer hours, between 8:00 and 22:00, via Tradegate Exchange (TDG). With over 10,000 securities from around the world, Tradegate offers a wide array of products, including Dutch, European and US stocks. You can find more information about trading on Tradegate on this page. The opening hours of all available exchanges can be found here.
 
 # I cannot place an order in the trading platform (Webtrader or App). What should I do?
 
-## /uk/helpdesk/orders/placing-order/i-cannot-place-order-trading-platform-webtrader-or-app-what-should-i-do
+## https://degiro.com/uk/helpdesk/orders/placing-order/i-cannot-place-order-trading-platform-webtrader-or-app-what-should-i-do
 
 If at any time you are unable to place an order via the WebTrade or app, you have the option to place either an Email Order or Telephone Order.
 
@@ -730,7 +730,7 @@ To place a telephone order, please call our Service Desk who will forward you to
 
 # There is a technical error and I cannot place my order online. How do I place my order?
 
-## /uk/helpdesk/orders/there-technical-error-and-i-cannot-place-my-order-online-how-do-i-place-my-order
+## https://degiro.com/uk/helpdesk/orders/there-technical-error-and-i-cannot-place-my-order-online-how-do-i-place-my-order
 
 If at any time you are unable to place an order via the Trader or app, you can always place either an email Order or, as a last resort, a telephone Order.
 
@@ -768,7 +768,7 @@ A telephone order is only possible if you can't set up your Order through the Tr
 
 # I want to buy shares on the London Stock Exchange, but the value is in GBX, what does this mean?
 
-## /uk/helpdesk/orders/placing-order/i-want-buy-shares-london-stock-exchange-value-gbx-what-does-mean
+## https://degiro.com/uk/helpdesk/orders/placing-order/i-want-buy-shares-london-stock-exchange-value-gbx-what-does-mean
 
 Many stocks traded on the London Stock Exchange trade against GBX (penny sterling). That is a policy of the London Stock Exchange.
 At DEGIRO, this currency is automatically converted back to GBP (pound sterling) because the Morgan Stanley money market fund does not offer holdings against the GBX.
@@ -776,7 +776,7 @@ In the account statement it also shows that there is paid for the shares in GBX 
 
 # There is no price data available for a product. Can I still place an order?
 
-## /uk/helpdesk/orders/placing-order/there-no-price-data-available-product-can-i-still-place-order
+## https://degiro.com/uk/helpdesk/orders/placing-order/there-no-price-data-available-product-can-i-still-place-order
 
 Yes. The price feeds are for consultation purposes only and are independent of orders. A product is still open for trading, even if there is no price data available.
 
@@ -784,7 +784,7 @@ In this case, you may wish to consult a third party for pricing information.
 
 # Can I place a combination order?
 
-## /uk/helpdesk/orders/order-types/can-i-place-combination-order
+## https://degiro.com/uk/helpdesk/orders/order-types/can-i-place-combination-order
 
 At DEGIRO it is possible to make use of a combination order.
 
@@ -796,13 +796,13 @@ Please be aware that by minimizing your screen on Desktop, the platform will cha
 
 # Does DEGIRO offer an API?
 
-## /uk/helpdesk/trading-platform/does-degiro-offer-api
+## https://degiro.com/uk/helpdesk/trading-platform/does-degiro-offer-api
 
 No, currently, we don't offer an API (Application Programming Interface). This means you can't connect your DEGIRO account to another application.
 
 # How can I participate in a shareholders meeting?
 
-## /uk/helpdesk/trading-platform/my-portfolio/how-can-i-participate-shareholders-meeting
+## https://degiro.com/uk/helpdesk/trading-platform/my-portfolio/how-can-i-participate-shareholders-meeting
 
 You are welcome to attend the Annual General Meeting of a company whose shares you hold. However, because of our omnibus structure, you cannot register your attendance to a shareholder meeting directly.
 
@@ -821,7 +821,7 @@ Upon request to ca@degiro.com, our specialist department can register you for th
 
 # What are the Total P/L  and  +/-  values on my account?
 
-## /uk/helpdesk/trading-platform/using-trading-platform/what-are-total-pl-and-values-my-account
+## https://degiro.com/uk/helpdesk/trading-platform/using-trading-platform/what-are-total-pl-and-values-my-account
 
 The Total P/L of your account calculates the total profit or loss since you opened your DEGIRO account. It includes realised and unrealised gains and losses on securities as well as dividends, currency fluctuations and trading fees.
 
@@ -829,7 +829,7 @@ The Day P/L is the total profit or loss on your account for the current trading 
 
 # How can I change the language of the platform?
 
-## /uk/helpdesk/trading-platform/using-trading-platform/how-can-i-change-language-platform
+## https://degiro.com/uk/helpdesk/trading-platform/using-trading-platform/how-can-i-change-language-platform
 
 If you would like to change the language of your Trading Platform, perform the following steps outlined in the below procedures.
 
@@ -842,7 +842,7 @@ Please note that this will only change the language of the Trading Platform itse
 
 # What are subscription rights and how can I exercise them?
 
-## /uk/helpdesk/trading-platform/my-portfolio/what-are-subscription-rights-and-how-can-i-exercise-them
+## https://degiro.com/uk/helpdesk/trading-platform/my-portfolio/what-are-subscription-rights-and-how-can-i-exercise-them
 
 Shareholders may receive subscription rights when a company plans to raise capital through a rights issue. A rights issue allows shareholders to buy new shares of the company at a predetermined subscription price, usually lower than the current market price. Investors who are eligible to receive the rights will receive them in their account before market opening on the ex-date, the cut-off date of stock ownership to be eligible to receive the rights, or the first trading day, if applicable.Companies can issue renounceable rights, which allows investors to trade the subscription rights on the exchange. In this case, investors who do not have shares in the company can trade the subscription rights and/or participate in the rights issue. Companies can also issue non-renounceable rights, in which case investors cannot trade the subscription rights on any exchange.
 
@@ -854,7 +854,7 @@ For more information on corporate actions, such as rights issues, you can consul
 
 # What is Smart Order Routing (SOR)?
 
-## /uk/helpdesk/trading-possibilities/products-and-markets/what-smart-order-routing-sor
+## https://degiro.com/uk/helpdesk/trading-possibilities/products-and-markets/what-smart-order-routing-sor
 
 To help a client receive the best execution on their order and efficiently access liquidity, financial institutions sometimes make use of what is known as 'smart order routing'. A Smart Order Router (SOR) is an automatic system of order routing that monitors all the trading venues to which it is connected where the product which you would like to trade is available. It will scan all these venues for the best available opposite order to your buy or sell order.
 
@@ -866,7 +866,7 @@ For more information, visit What is a trading venue? and refer to our Best Exe
 
 # How to place an order for a bond.
 
-## /uk/helpdesk/trading-platform/how-place-order-bond
+## https://degiro.com/uk/helpdesk/trading-platform/how-place-order-bond
 
 Placing a buy or sell order for a corporate or government bond is different from placing an order for a stock or ETF. Due to the nature of how bonds work, when investing in bonds you do not specify the amount of bonds you would like to buy or sell and how much you are willing to pay or receive for each - as is the case for stocks and ETFs.
 
@@ -874,19 +874,19 @@ Instead, you specify how much money you would like to have invested in a bond (t
 
 # What happens if a position I hold is delisted?
 
-## /uk/helpdesk/trading-platform/what-happens-if-position-i-hold-delisted
+## https://degiro.com/uk/helpdesk/trading-platform/what-happens-if-position-i-hold-delisted
 
 If a stock you hold delists from the exchange, it may be possible to transfer the position to another exchange. To find do so, please contact our service desk by e-mail.If DEGIRO cannot facilitate trading on another exchange, it may be possible to transfer your position out to another broker.Unfortunately, if the position is delisted from all exchanges, it may not be possible to close your position.
 
 # What do the different key figures in my account mean?
 
-## /uk/helpdesk/trading-platform/what-do-different-key-figures-my-account-mean
+## https://degiro.com/uk/helpdesk/trading-platform/what-do-different-key-figures-my-account-mean
 
 When you log in to your account, you will see six different numbers in your 'Account overview', in the top part of the screen. In the app, this is visible after tapping on the number in the centre of the top blue bar. Below, you can find a detailed description of what each number means and how they are connected to each other.When you log in to your account, you will see six different numbers in your 'Account overview', in the top part of the screen. In the app, this is visible after tapping on the number in the centre of the top blue bar. Below, you can find a detailed description of what each number means and how they are connected to each other. Account balanceThe total value of your account. It represents the balance on your cash account and the total value of all the positions in your portfolio (the value of your investments plus your cash).  EUR/GBP/CHFThis is the current balance on the cash account. If this value is negative, this means that you are borrowing money from us to finance your investments. The interest for this loan depends on whether or not the loan has been allocated beforehand. Please refer to our Feeschedule for more information on these fees.  PortfolioThe sum of the value of all your current investments. This also includes foreign currencies and the compensation for the negative interest on your cash account.  Day P/LThis figure is the total profit or loss on your account for the current trading day, calculated against the last closing price of the products you hold. It resets every day at midnight.  Total P/LThis figure refers to the total profit or loss since you opened your DEGIRO account. It includes realised and unrealised gains and losses on securities as well as dividends, currency fluctuations and trading fees.  Available to tradeThis represents how much money you still have available to invest with. With a Basic profile, this balance is equal to the balance shown above EUR/GBP/CHF. However, with an Active or Trader profile, this balance includes your available margin or credit. If the value is negative, you are in deficit and could receive a margin call to resolve the deficit. This deficit can be resolved by either depositing more money or by restructuring your portfolio. For more information, please see "I am trading on margin and now my account is in deficit. What should I do?".
 
 # How do I transfer part or all of my portfolio?
 
-## /uk/helpdesk/trading-platform/how-do-i-transfer-part-or-all-my-portfolio
+## https://degiro.com/uk/helpdesk/trading-platform/how-do-i-transfer-part-or-all-my-portfolio
 
 It is possible for you to transfer your portfolio to or from DEGIRO.
 
@@ -901,13 +901,13 @@ If you wish to transfer your portfolio, please complete the Portfolio Transfer f
 
 # Can I create a list of favourite products?
 
-## /uk/helpdesk/trading-platform/using-trading-platform/can-i-create-list-favourite-products
+## https://degiro.com/uk/helpdesk/trading-platform/using-trading-platform/can-i-create-list-favourite-products
 
 You can add a product to your list of favourites by clicking on the star icon next to the Buy/Sell buttons on the product page. A specific product has been added to your list as soon as the icon has turned blue. You can find your favourites list under the Favourites tab. This allows you to easily access price information of a specific financial instrument.
 
 # Are there interactive graphs available in the trading platform?
 
-## /uk/helpdesk/trading-platform/using-trading-platform/are-there-interactive-graphs-available-trading-platform
+## https://degiro.com/uk/helpdesk/trading-platform/using-trading-platform/are-there-interactive-graphs-available-trading-platform
 
 When on the product detail page, you can customise the graph in a number of ways including by clicking on "Custom settings":
 
@@ -924,7 +924,7 @@ Volume Indicators
 
 # In what currency are dividends paid?
 
-## /uk/helpdesk/trading-platform/what-currency-are-dividends-paid
+## https://degiro.com/uk/helpdesk/trading-platform/what-currency-are-dividends-paid
 
 When a company chooses to issue dividends - that is, profits that are being paid out to shareholders - the company decides not only how much the dividends will be, but also in what currency they'll be paid. They can choose to pay the dividends in only one currency (for example, only in Euros) or in more than one currency (for example, in British Pounds and Euros).
 
@@ -938,7 +938,7 @@ Since ETFs and investment funds may receive dividends from companies in differen
 
 # How do I search for a product?
 
-## /uk/helpdesk/trading-platform/using-trading-platform/how-do-i-search-product
+## https://degiro.com/uk/helpdesk/trading-platform/using-trading-platform/how-do-i-search-product
 
 In the top left-hand corner of the Trader, you will find the search box. Here you can search for products to trade. You can search for a stock by name, ticker symbol, or ISIN code. In the App, you find the search by clicking on the "Search" symbol below in the menu bar.
 
@@ -946,13 +946,13 @@ Products can be found using the name, the ISIN and the ticker code, as long as t
 
 # Why do some products and exchanges show no price data?
 
-## /uk/helpdesk/trading-platform/why-do-some-products-and-exchanges-show-no-price-data
+## https://degiro.com/uk/helpdesk/trading-platform/why-do-some-products-and-exchanges-show-no-price-data
 
 We do not currently offer price feeds for some exchanges including (but not limited to): Australia, Canada, Hong Kong, Japan, and Singapore. If a price feed is missing, you can still place orders on these products, but you may wish to obtain the price information from a third party data provider.
 
 # What is 'Bid Only'?
 
-## /uk/helpdesk/trading-possibilities/what-bid-only
+## https://degiro.com/uk/helpdesk/trading-possibilities/what-bid-only
 
 Sometimes, a structured product, such as a turbo or warrant, does not have an 'ask' price. In such cases, it's in a so-called 'Bid Only' status. This can occur when the product is sold out or when the maximum leverage allowed by local regulators has been exceeded.
 
@@ -962,7 +962,7 @@ For more information about the status and price information of a particular prod
 
 # How to transfer my DEGIRO portfolio to another broker?
 
-## /uk/helpdesk/trading-possibilities/how-transfer-my-degiro-portfolio-another-broker
+## https://degiro.com/uk/helpdesk/trading-possibilities/how-transfer-my-degiro-portfolio-another-broker
 
 Yes, you can transfer your portfolio to another broker.
 
@@ -976,7 +976,7 @@ Please note	We cannot transfer any positions if there is any (formal) change of 
 
 # What do the suffixes "ACC" or "DIST" behind an ETF mean?
 
-## /uk/helpdesk/trading-possibilities/products-and-markets/what-do-suffixes-acc-or-dist-behind-etf-mean
+## https://degiro.com/uk/helpdesk/trading-possibilities/products-and-markets/what-do-suffixes-acc-or-dist-behind-etf-mean
 
 The suffixes "ACC" and "DIST" behind an ETF's name are shorthand for "Accumulating" and "Distributing". This is an indication of the two different ways of how an ETF can manage the dividends it generates.
 
@@ -984,7 +984,7 @@ For more information on the difference between these two ways of handling divide
 
 # How do I transfer my existing porfolio to DEGIRO?
 
-## /uk/helpdesk/trading-possibilities/how-do-i-transfer-my-existing-porfolio-degiro
+## https://degiro.com/uk/helpdesk/trading-possibilities/how-do-i-transfer-my-existing-porfolio-degiro
 
 Are you currently investing with another bank or broker and would you like to start to profit from our low fees? We gladly welcome you to our award winning platform!
 
@@ -999,7 +999,7 @@ DEGIRO does not charge any fees regarding an incoming portfolio transfer, howeve
 
 # Why can't I trade U.S. ETFs?
 
-## /uk/helpdesk/trading-possibilities/why-cant-i-trade-us-etfs
+## https://degiro.com/uk/helpdesk/trading-possibilities/why-cant-i-trade-us-etfs
 
 Due to the new PRIIPS legislation, as of the 2nd of January 2018 a number of (foreign) products have become unavailable to purchase. Holding or selling these products remains possible, however it is not possible to purchase or expand your position in these products. The affected products are a selection of different products such as ETFs, derivatives and leveraged products. The new regulation makes it mandatory for all issuing parties to provide documentation for investors. These products will no longer be purchasable on our platform until the documentation requirements are met.
 
@@ -1007,31 +1007,31 @@ This regards a selection of foreign ETFs and derivatives where no correct docume
 
 # Which exchanges can I trade on?
 
-## /uk/helpdesk/trading-possibilities/which-exchanges-can-i-trade
+## https://degiro.com/uk/helpdesk/trading-possibilities/which-exchanges-can-i-trade
 
 You can access over 50 exchanges across 30 countries when you invest with us. Check out our Markets page to see the full list.
 
 # What products are available to trade through DEGIRO?
 
-## /uk/helpdesk/trading-possibilities/what-products-are-available-trade-through-degiro
+## https://degiro.com/uk/helpdesk/trading-possibilities/what-products-are-available-trade-through-degiro
 
 DEGIRO offers trading in shares, ETFs, leveraged products, Bonds and derivatives such as Options and Futures.
 
 # Can I trade U.S. Options with DEGIRO?
 
-## /uk/helpdesk/trading-possibilities/can-i-trade-us-options-degiro
+## https://degiro.com/uk/helpdesk/trading-possibilities/can-i-trade-us-options-degiro
 
 U.S. index options are available to trade with DEGIRO. However, it is not possible to trade in US equity options. Please refer to the Products & Markets page on our website for all option markets currently available.
 
 # Why can I not short sell certain products?
 
-## /uk/helpdesk/trading-possibilities/why-can-i-not-short-sell-certain-products
+## https://degiro.com/uk/helpdesk/trading-possibilities/why-can-i-not-short-sell-certain-products
 
 In some cases, short selling is restricted at the market in question. In other cases, it is in internal decision by DEGIRO not to allow short selling in a product.Short selling stocks with risk category D, or U.S. products, is not permitted.
 
 # What is Smart Order Routing (SOR)?
 
-## /uk/helpdesk/trading-possibilities/products-and-markets/what-smart-order-routing-sor
+## https://degiro.com/uk/helpdesk/trading-possibilities/products-and-markets/what-smart-order-routing-sor
 
 To help a client receive the best execution on their order and efficiently access liquidity, financial institutions sometimes make use of what is known as 'smart order routing'. A Smart Order Router (SOR) is an automatic system of order routing that monitors all the trading venues to which it is connected where the product which you would like to trade is available. It will scan all these venues for the best available opposite order to your buy or sell order.
 
@@ -1043,7 +1043,7 @@ For more information, visit What is a trading venue? and refer to our Best Exe
 
 # Can I transfer shares to a friend or family member?
 
-## /uk/helpdesk/trading-possibilities/can-i-transfer-shares-friend-or-family-member
+## https://degiro.com/uk/helpdesk/trading-possibilities/can-i-transfer-shares-friend-or-family-member
 
 DEGIRO does not facilitate “gift” transfers. For all transfers, the name on the account which you are transferring must match the name on the DEGIRO account. This also applies to Joint Accounts.
 
@@ -1051,13 +1051,13 @@ An individual account can only be transferred to an individual account of the sa
 
 # Can I trade derivatives with DEGIRO?
 
-## /uk/helpdesk/trading-possibilities/can-i-trade-derivatives-degiro
+## https://degiro.com/uk/helpdesk/trading-possibilities/can-i-trade-derivatives-degiro
 
 Yes, it is possible to trade derivatives with DEGIRO. This service is referred to as Derivatives and is available for Active, Trader, and Day Trader profiles. For further information please see the document Profiles and the separate Derivatives Conditions.
 
 # Can I trade on the London Stock Exchange AIM Segment?
 
-## /uk/helpdesk/trading-possibilities/products-and-markets/can-i-trade-london-stock-exchange-aim-segment
+## https://degiro.com/uk/helpdesk/trading-possibilities/products-and-markets/can-i-trade-london-stock-exchange-aim-segment
 
 Through DEGIRO you can trade in LSE AIM stocks, however there are a few points to consider before starting to trade AIM stocks.
 
@@ -1077,7 +1077,7 @@ The information presented above is intended to provide basic information in rela
 
 # How do I short sell?
 
-## /uk/helpdesk/trading-possibilities/how-do-i-short-sell
+## https://degiro.com/uk/helpdesk/trading-possibilities/how-do-i-short-sell
 
 With an Active, Trader or Day Trader profile you can hold a short position at DEGIRO. This service is called Debit Securities.
 
@@ -1095,7 +1095,7 @@ The maximum size of your potential short position is determined by your allocate
 
 # The product I want to trade is not available. Can I request that it be added?
 
-## /uk/helpdesk/trading-possibilities/product-i-want-trade-not-available-can-i-request-it-be-added
+## https://degiro.com/uk/helpdesk/trading-possibilities/product-i-want-trade-not-available-can-i-request-it-be-added
 
 Yes, clients can request that a product be added by contacting our service desk per e-mail. Please be aware this is on a best effort basis.
 

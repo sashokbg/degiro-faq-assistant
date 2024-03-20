@@ -26,7 +26,7 @@ const extract = async (section) => {
     .toArray();
 
   for (const row of rows) {
-    let link = row.attribs.href;
+    let link = baseUrl + row.attribs.href;
     let subBody = await (await fetch(baseUrl + link)).text();
 
     const $$ = cheerio.load(subBody);
