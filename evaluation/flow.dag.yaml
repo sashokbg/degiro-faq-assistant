@@ -1,0 +1,32 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
+
+inputs:
+  groundtruth_link:
+    type: string
+    description: The ground truth expected link in the response
+  question:
+    type: string
+    description: The original question the user asked
+  answer:
+    type: string
+    description: The actual predicted outputs that your flow produces.
+
+
+nodes:
+  - name: grade
+    type: python
+    source:
+      type: code
+      path: grade.py
+    inputs:
+      link: ${inputs.groundtruth_link}
+      answer: ${inputs.answer}
+
+  - name: calculate_accuracy
+    type: python
+    source:
+      type: code
+      path: calculate_accuracy.py
+    inputs:
+      grades: ${grade.output}
+    aggregation: true  # Add this attribute to make it an aggregation node

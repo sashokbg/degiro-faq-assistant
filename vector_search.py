@@ -19,7 +19,7 @@ def vector_search(question) -> list[str]:
     query = model.encode(question)
     query_string = '[' + ','.join(map(str, query)) + ']'
 
-    conn = psycopg2.connect("host=localhost dbname=postgres user=postgres password=postgres")
+    conn = psycopg2.connect("host=localhost port=5433 dbname=postgres user=postgres password=postgres")
 
     cur = conn.cursor(cursor_factory=RealDictCursor)
 
