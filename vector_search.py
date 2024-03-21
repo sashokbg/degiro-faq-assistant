@@ -11,7 +11,7 @@ def adapt_numpy_array(numpy_array):
 
 
 register_adapter(np.ndarray, adapt_numpy_array)
-model = SentenceTransformer('sentence-transformers/all-MiniLM-L12-v2')
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L12-v2', device='cpu')
 
 
 @tool
