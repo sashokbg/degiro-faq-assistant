@@ -6,13 +6,19 @@ user:
 
 <s>
 [INST]
-
 Write an answer given the available information bellow.
-Always cite the FAQ title and link at the end.
+[/INST]
+
+[INST]
+Answer in one short phrase.
+[/INST]
+
+[INST]
+Provide the original link.
+[/INST]
 
 {% for item in search_result %}
     FAQ Title: {{item.title}}
     Link: {{item.link}}
     Content: {{item.chunk}}
 {% endfor %}
-[/INST]

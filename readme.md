@@ -30,3 +30,11 @@ Create a new batch run
 ```shell
 pf run create --flow . --data batch_data.jsonl --stream --name third_run --column-mapping question='${data.question}'
 ```
+
+pf connection create -f openai_connection.yaml
+
+# Pip freeze 
+
+'''
+pip freeze > requirements.txt
+'''
