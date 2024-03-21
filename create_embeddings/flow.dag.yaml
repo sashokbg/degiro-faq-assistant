@@ -1,0 +1,33 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
+
+nodes:
+  - name: embeddings_count
+    type: python
+    source:
+      type: code
+      path: embeddings_count.py
+  - name: scrap_data
+    type: python
+    activate:
+      when: ${embeddings_count.output}
+      is: 0
+    source:
+      type: code
+      path: scrap_data.py
+  - name: chunk_text
+    type: python
+    activate:
+      when: ${embeddings_count.output}
+      is: 0
+    source:
+      type: code
+      path: chunk_text.py
+    inputs:
+      source_file: ${scrap_data.output}
+  - name: create_embeddings
+    type: python
+    source:
+      type: code
+      path: create_embeddings.py
+    inputs:
+      chunks: ${chunk_text.output}
