@@ -4,15 +4,17 @@ You are a helpful assistant answering questions about the FAQ of Degiro's websit
 user:
 {{question}}
 
-<s>
 [INST]
 Write an answer given the available information bellow.
 Answer in one short phrase and provide the original link below it.
-[/INST]
-</s>
 
 {% for item in search_result %}
     FAQ Title: {{item.title}}
     Link: {{item.link}}
     Content: {{item.chunk}}
 {% endfor %}
+
+[/INST]
+assistant:
+
+Link:
