@@ -2,5 +2,5 @@
 {"question": "Can I buy a part of a share ?", "category": "negative", "link": "https://www.degiro.com/uk/helpdesk/orders/does-degiro-offer-fractional-shares"}
 {"question": "Can I open an account from Bulgaria ?", "category": "positive", "link": "https://www.degiro.com/uk/helpdesk/become-client/registering-degiro-account/how-do-i-open-degiro-account"}
 {"question": "Can I open an account from Qatar ?", "category": "negative", "link": "https://www.degiro.com/uk/helpdesk/become-client/registering-degiro-account/how-do-i-open-degiro-account"}
-{"question": "How do I secure my account ?", "category": "neutral", "should_mention": "2FA or Two-factor authentication", "link": "https://www.degiro.com/uk/helpdesk/account-and-personal-details/how-can-i-enable-two-step-authentication-my-account"}
+{"question": "How do I secure my account ?", "category": "neutral", "should_mention": "2FA or Two-factor authentication", "link": "https://www.degiro.com/uk/helpdesk/account-and-personal-details/i-think-someone-else-may-have-access-my-degiro-account-how-do-i-secure"}
 {"question": "What is DEGIRO", "link": "https://www.degiro.com/uk/helpdesk/about-degiro/history-degiro/who-degiro", "category": "neutral"}

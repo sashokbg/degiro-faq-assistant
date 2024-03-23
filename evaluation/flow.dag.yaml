@@ -11,6 +11,10 @@ inputs:
     type: string
     description: The actual predicted outputs that your flow produces.
 
+outputs:
+  grade:
+    type: string
+    reference: ${grade.output}
 
 nodes:
   - name: grade

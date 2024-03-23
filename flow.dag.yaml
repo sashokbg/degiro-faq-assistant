@@ -41,19 +41,19 @@ node_variants:
             search_result: ${vector_search.output}
             chat_history: ${inputs.chat_history}
           api: chat
-          connection: open_ai_connection
-
-#      variant_1:
-#        node:
-#          type: python
-#          source:
-#            type: code
-#            path: lmql_chat.py
-#          inputs:
-#            temperature: "0"
-#            template: prompt.lmql
-#            question: ${inputs.question}
-#            search_result: ${vector_search.output}
-#            chat_history: ${inputs.chat_history}
-#          api: chat
-#          connection: open_ai_connection
+          connection: open_ai_connection_local
+      variant_1:
+        node:
+          type: llm
+          source:
+            type: code
+            path: prompt.jinja2
+          inputs:
+            deployment_name: gpt-35-turbo
+            max_tokens: "256"
+            temperature: "0"
+            question: ${inputs.question}
+            search_result: ${vector_search.output}
+            chat_history: ${inputs.chat_history}
+          api: chat
+          connection: open_ai_connection_prod

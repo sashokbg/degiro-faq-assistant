@@ -1,0 +1,13 @@
+{"question": "Can I open an account for my child ?", "category": "negative", "link": "https://www.degiro.com/uk/helpdesk/become-client/registering-degiro-account/can-i-open-account-my-child"}
+{"question": "Can I buy a part of a share ?", "category": "negative", "link": "https://www.degiro.com/uk/helpdesk/orders/does-degiro-offer-fractional-shares"}
+{"question": "Can I open an account from Bulgaria ?", "category": "positive", "link": "https://www.degiro.com/uk/helpdesk/become-client/registering-degiro-account/how-do-i-open-degiro-account"}
+{"question": "Can I open an account from Qatar ?", "category": "negative", "link": "https://www.degiro.com/uk/helpdesk/become-client/registering-degiro-account/how-do-i-open-degiro-account"}
+{"question": "How do I secure my account ?", "category": "neutral", "should_mention": "2FA or Two-factor authentication", "link": "https://www.degiro.com/uk/helpdesk/account-and-personal-details/i-think-someone-else-may-have-access-my-degiro-account-how-do-i-secure"}
+{"question": "What is DEGIRO", "link": "https://www.degiro.com/uk/helpdesk/about-degiro/history-degiro/who-degiro", "category": "neutral"}
+{"question": "I moved to another country", "link": "https://www.degiro.com/uk/helpdesk/tax/tax-residency/what-tax-residency"}
+{"question": "I tried to place an order but the app crashed !", "link": "https://www.degiro.com/uk/helpdesk/orders/there-technical-error-and-i-cannot-place-my-order-online-how-do-i-place-my-order"}
+{"question": "Where can I find my order confirmation?", "link": "https://www.degiro.com/uk/helpdesk/orders/placing-order/will-i-receive-confirmation-when-my-order-has-been-executed"}
+{"question": "My account is in dollars, how do I withdraw in euros?", "link": "https://www.degiro.com/uk/helpdesk/money-transfers-and-handling/can-i-withdraw-another-currency"}
+{"question": "My account is in euros, how do I change it to dollars? ", "link": "https://www.degiro.com/uk/helpdesk/money-transfers-and-handling/can-i-change-currency-my-account"}
+{"question": "Why can’t I withdraw all my money?", "link": "https://www.degiro.com/uk/helpdesk/money-transfers-and-handling/i-am-trying-withdraw-my-full-balance-i-receive-error-how-do-i-withdraw"}
+{"question": "What are the fees for withdrawing?", "link": "https://www.degiro.com/uk/helpdesk/fees/other-costs/are-there-any-costs-depositing-or-withdrawing-funds"}

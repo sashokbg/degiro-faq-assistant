@@ -6,3 +6,4 @@ venv
 __pycache__
 .promptflow
 models
+openai_connection_prod.yaml
