@@ -17,8 +17,8 @@ Answer in one short phrase and provide a link from the list bellow.
 {% for item in search_result %}
     ## Title: {{item.title}}
     ## Link: {{item.link}}
-    ## Content: {{item.chunk}}
-    ## Relevancy: {{item.cosine_similarity}}
+    ## Content: {{item.content}}
+    ## Relevancy: {{item.score}}%
 
 {% endfor %}
 

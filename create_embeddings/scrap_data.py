@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import time
 from promptflow import tool
 import re
-
+import os
 
 base_url = 'https://www.degiro.com'
 
@@ -59,19 +59,24 @@ all_data = []
 
 
 @tool
-def scrap_data():
+def scrap_data(file_path: str):
     print("Starting scraping")
+
+    if os.path.exists(file_path):
+        print(f"Skipping data scraping due to file {file_path} already existing !")
+
+        return file_path
 
     for section in sections:
         all_data.extend(extract(section))
         time.sleep(0.5)
 
     try:
-        with open('faq.md', 'w') as file:
+        with open(file_path, 'w') as file:
             for d in all_data:
                 file.write(d)
     except Exception as e:
         print(e)
 
     print("Done scraping")
-    return 'faq.md'
+    return file_path

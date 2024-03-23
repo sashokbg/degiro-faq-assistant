@@ -1,38 +1,44 @@
-import numpy as np
-import psycopg2
+import os
+
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores.pgvector import PGVector
 from promptflow import tool
-from psycopg2.extensions import register_adapter, AsIs
-from psycopg2.extras import RealDictCursor
-from sentence_transformers import SentenceTransformer
 
+CONNECTION_STRING = PGVector.connection_string_from_db_params(
+    driver=os.environ.get("PGVECTOR_DRIVER", "psycopg2"),
+    host=os.environ.get("PGVECTOR_HOST", "localhost"),
+    port=int(os.environ.get("PGVECTOR_PORT", "5433")),
+    database=os.environ.get("PGVECTOR_DATABASE", "postgres"),
+    user=os.environ.get("PGVECTOR_USER", "postgres"),
+    password=os.environ.get("PGVECTOR_PASSWORD", "postgres"),
+)
 
-def adapt_numpy_array(numpy_array):
-    return AsIs(tuple(numpy_array))
-
-
-register_adapter(np.ndarray, adapt_numpy_array)
-model = SentenceTransformer('sentence-transformers/all-MiniLM-L12-v2', device='cpu')
+model_kwargs = {'device': 'cpu'}
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2", model_kwargs=model_kwargs)
 
 
 @tool
-def vector_search(question) -> list[str]:
-    query = model.encode(question)
-    query_string = '[' + ','.join(map(str, query)) + ']'
+def vector_search(question) -> list[dict]:
+    print(f"Searching vectors for Q: {question}")
 
-    conn = psycopg2.connect("host=localhost port=5433 dbname=postgres user=postgres password=postgres")
+    store = PGVector(
+        collection_name="embeddings",
+        connection_string=CONNECTION_STRING,
+        embedding_function=embeddings,
+    )
 
-    cur = conn.cursor(cursor_factory=RealDictCursor)
+    docs = store.similarity_search_with_score(question, k=2)
 
-    sql = """
-        SELECT title, link, chunk, 1-(embedding <=> %s) as cosine_similarity 
-        FROM embeddings 
-        ORDER BY cosine_similarity 
-        DESC LIMIT 3;"""
+    print(f"Found {len(docs)} docs")
 
-    cur.execute(sql, (query_string,))
-    result = cur.fetchmany(2)
+    result = []
 
-    cur.close()
-    conn.close()
+    for doc, score in docs:
+        result.append({
+            "score": round(1 - score, 2),
+            "content": doc.page_content,
+            "title": doc.metadata['title'],
+            "link": doc.metadata['link']
+        })
 
     return result

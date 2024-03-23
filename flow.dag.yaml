@@ -20,6 +20,11 @@ nodes:
       path: vector_search.py
     inputs:
       question: ${inputs.question}
+#  - name: keyword_search
+#    type: python
+#    source:
+#      type: code
+#      path: keyword_search.py
   - name: chat
     use_variants: true
 
@@ -42,7 +47,7 @@ node_variants:
             chat_history: ${inputs.chat_history}
           api: chat
           connection: open_ai_connection_local
-      variant_1:
+      openai:
         node:
           type: llm
           source:
