@@ -4,6 +4,9 @@ inputs:
     type: string
     is_chat_input: true
     default: What is Degiro ?
+  k_top:
+    type: int
+    default: 4
   chat_history:
     type: list
     default: [ ]
@@ -19,6 +22,7 @@ nodes:
       type: code
       path: vector_search.py
     inputs:
+      k_top: ${inputs.k_top}
       question: ${inputs.question}
 #  - name: keyword_search
 #    type: python
@@ -53,6 +57,21 @@ node_variants:
           source:
             type: code
             path: prompt.jinja2
+          inputs:
+            deployment_name: gpt-35-turbo
+            max_tokens: "256"
+            temperature: "0"
+            question: ${inputs.question}
+            search_result: ${vector_search.output}
+            chat_history: ${inputs.chat_history}
+          api: chat
+          connection: open_ai_connection_prod
+      few_shots:
+        node:
+          type: llm
+          source:
+            type: code
+            path: prompt_few_shots.jinja2
           inputs:
             deployment_name: gpt-35-turbo
             max_tokens: "256"

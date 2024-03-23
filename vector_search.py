@@ -18,7 +18,7 @@ embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2", model_kwargs=m
 
 
 @tool
-def vector_search(question) -> list[dict]:
+def vector_search(question, k_top) -> list[dict]:
     print(f"Searching vectors for Q: {question}")
 
     store = PGVector(
@@ -27,7 +27,7 @@ def vector_search(question) -> list[dict]:
         embedding_function=embeddings,
     )
 
-    docs = store.similarity_search_with_score(question, k=2)
+    docs = store.similarity_search_with_score(question, k=k_top)
 
     print(f"Found {len(docs)} docs")
 
