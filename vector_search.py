@@ -35,10 +35,14 @@ def vector_search(question, k_top) -> list[dict]:
 
     for doc, score in docs:
         result.append({
-            "score": round(1 - score, 2),
+            "score": round(1 - score),
             "content": doc.page_content,
             "title": doc.metadata['title'],
             "link": doc.metadata['link']
         })
 
     return result
+
+
+if __name__ == "__main__":
+    vector_search("Can I buy a part of a share ?", 5)

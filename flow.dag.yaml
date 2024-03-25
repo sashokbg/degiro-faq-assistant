@@ -24,19 +24,32 @@ nodes:
     inputs:
       k_top: ${inputs.k_top}
       question: ${inputs.question}
-#  - name: keyword_search
-#    type: python
-#    source:
-#      type: code
-#      path: keyword_search.py
+  - name: keyword_search
+    type: python
+    source:
+      type: code
+      path: keyword_search.py
+    inputs:
+      k_top: ${inputs.k_top}
+      question: ${inputs.question}
+  - name: rerank
+    type: python
+    inputs:
+      question: ${inputs.question}
+      vector_results: ${vector_search.output}
+      keyword_results: ${keyword_search.output}
+      max: 2
+    source:
+      type: code
+      path: rerank.py
   - name: chat
     use_variants: true
 
 node_variants:
   chat:
-    default_variant_id: variant_0
+    default_variant_id: default
     variants:
-      variant_0:
+      default:
         node:
           type: llm
           source:
@@ -47,22 +60,7 @@ node_variants:
             max_tokens: "256"
             temperature: "0"
             question: ${inputs.question}
-            search_result: ${vector_search.output}
-            chat_history: ${inputs.chat_history}
-          api: chat
-          connection: open_ai_connection_local
-      openai:
-        node:
-          type: llm
-          source:
-            type: code
-            path: prompt.jinja2
-          inputs:
-            deployment_name: gpt-35-turbo
-            max_tokens: "256"
-            temperature: "0"
-            question: ${inputs.question}
-            search_result: ${vector_search.output}
+            search_result: ${rerank.output}
             chat_history: ${inputs.chat_history}
           api: chat
           connection: open_ai_connection_prod
@@ -77,7 +75,7 @@ node_variants:
             max_tokens: "256"
             temperature: "0"
             question: ${inputs.question}
-            search_result: ${vector_search.output}
+            search_result: ${rerank.output}
             chat_history: ${inputs.chat_history}
           api: chat
           connection: open_ai_connection_prod
