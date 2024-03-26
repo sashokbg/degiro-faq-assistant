@@ -17,21 +17,9 @@ outputs:
     is_chat_output: true
 nodes:
   - name: vector_search
-    type: python
-    source:
-      type: code
-      path: vector_search.py
-    inputs:
-      k_top: ${inputs.k_top}
-      question: ${inputs.question}
+    use_variants: true
   - name: keyword_search
-    type: python
-    source:
-      type: code
-      path: keyword_search.py
-    inputs:
-      k_top: ${inputs.k_top}
-      question: ${inputs.question}
+    use_variants: true
   - name: rerank
     type: python
     inputs:
@@ -46,6 +34,44 @@ nodes:
     use_variants: true
 
 node_variants:
+  vector_search:
+    default_variant_id: default
+    variants:
+      default:
+        node:
+          type: python
+          source:
+            type: code
+            path: vector_search.py
+          inputs:
+            k_top: ${inputs.k_top}
+            question: ${inputs.question}
+      disabled:
+        node:
+          type: python
+          source:
+            type: code
+            path: mock_node.py
+
+  keyword_search:
+    default_variant_id: default
+    variants:
+      default:
+        node:
+          type: python
+          source:
+            type: code
+            path: keyword_search.py
+          inputs:
+            k_top: ${inputs.k_top}
+            question: ${inputs.question}
+      disabled:
+        node:
+          type: python
+          source:
+            type: code
+            path: mock_node.py
+
   chat:
     default_variant_id: default
     variants:

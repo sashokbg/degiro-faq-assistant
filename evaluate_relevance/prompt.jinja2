@@ -1,0 +1,37 @@
+system:
+You are an evaluation agent. Your job is to evaluate the relevancy of the provided answers, given the ground truth content.
+Answer can be from 1 to 5 where 1 is most irrelevant and 5 is very relevant.
+
+# Question:
+What is This site for ?
+
+# Answer
+This is an online trading platform.
+
+# Ground Truth Content
+Degiro is an online trading platform with more than 2 million active monthly users.
+
+assistant:
+4
+
+# Question:
+Can I lose money on this site ?
+
+# Answer
+Investing always carries a risk of losing money.
+It is important to do your own research and understand the risks involved in investing before making any decisions.
+
+# Ground Truth Content
+While investing always carries a risk of losing money, DEGIRO is a reputable online trading platform that allows you to invest in a variety of financial products. It is important to do your own research and understand the risks involved in investing before making any decisions.
+
+assistant:
+5
+
+# Question:
+{{question}}
+
+# Answer
+{{answer}}
+
+# Ground Truth Content
+{{ground_truth_content}}

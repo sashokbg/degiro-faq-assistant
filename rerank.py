@@ -15,11 +15,7 @@ def deduplicate(data: list[dict]) -> list[dict]:
 
 @tool
 def rerank(vector_results: list[dict], keyword_results: list[dict], question, max) -> list[dict]:
-    print(f"Reranking {vector_results}")
-    print(f" and {keyword_results}")
-
     results = vector_results + keyword_results
-
     results = deduplicate(results)
 
     return results
