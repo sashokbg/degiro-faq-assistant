@@ -30,7 +30,7 @@ nodes:
       ground_truth_content: ${inputs.ground_truth_content}
       answer: ${inputs.answer}
     api: chat
-    connection: open_ai_connection_prod
+    connection: open_ai_connection_gpt4
 
   - name: calculate_accuracy
     type: python

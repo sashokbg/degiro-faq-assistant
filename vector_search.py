@@ -35,7 +35,7 @@ def vector_search(question, k_top) -> list[dict]:
 
     for doc, score in docs:
         result.append({
-            "score": round(1 - score),
+            "score": round(1 - score, 2),
             "content": doc.page_content,
             "title": doc.metadata['title'],
             "link": doc.metadata['link']

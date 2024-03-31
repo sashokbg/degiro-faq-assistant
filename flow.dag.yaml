@@ -89,7 +89,7 @@ node_variants:
             search_result: ${rerank.output}
             chat_history: ${inputs.chat_history}
           api: chat
-          connection: open_ai_connection_prod
+          connection: open_ai_connection
       few_shots:
         node:
           type: llm
@@ -104,4 +104,4 @@ node_variants:
             search_result: ${rerank.output}
             chat_history: ${inputs.chat_history}
           api: chat
-          connection: open_ai_connection_prod
+          connection: open_ai_connection

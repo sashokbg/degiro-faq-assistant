@@ -1,6 +1,6 @@
 $schema: https://azuremlschemas.azureedge.net/promptflow/latest/OpenAIConnection.schema.json
 base_url: http://localhost:8000/v1
 api_key: none
-name: open_ai_connection_local
+name: open_ai_connection
 type: open_ai
 

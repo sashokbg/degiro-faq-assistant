@@ -7,3 +7,4 @@ __pycache__
 .promptflow
 models
 openai_connection_prod.yaml
+openai_connection_gpt4.yaml
