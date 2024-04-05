@@ -1,4 +1,4 @@
-from promptflow import tool
+from promptflow.core import tool
 from sentence_transformers import CrossEncoder
 
 encoder = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2', max_length=512, device='cpu')

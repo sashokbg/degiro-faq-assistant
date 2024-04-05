@@ -1,7 +1,7 @@
 
 from langchain_core.documents import Document
 from langchain_text_splitters import MarkdownHeaderTextSplitter
-from promptflow import tool
+from promptflow.core import tool
 
 
 @tool

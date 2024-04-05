@@ -1,4 +1,4 @@
-from promptflow import tool
+from promptflow.core import tool
 
 import psycopg2
 from psycopg2.extras import RealDictCursor

@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import time
-from promptflow import tool
+from promptflow.core import tool
 import re
 import os
 
