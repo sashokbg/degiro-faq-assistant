@@ -1,14 +1,6 @@
 # system:
 You are a helpful assistant answering questions about the FAQ of Degiro's website.
 
-{% for item in chat_history %}
-    # user:
-    {{item.inputs.question}}
-    # assistant:
-    {{item.outputs.answer}}
-{% endfor %}
-
-[INST]
 Write an answer given the available information bellow.
 Answer in one short phrase and provide a link from the list bellow.
 
@@ -21,8 +13,6 @@ Answer in one short phrase and provide a link from the list bellow.
     ## Relevancy: {{item.score}}%
 
 {% endfor %}
-
-[/INST]
 
 # user:
 

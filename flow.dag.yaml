@@ -35,7 +35,7 @@ nodes:
 
 node_variants:
   vector_search:
-    default_variant_id: default
+    default_variant_id: default # default OR disabled
     variants:
       default:
         node:
@@ -54,7 +54,7 @@ node_variants:
             path: mock_node.py
 
   keyword_search:
-    default_variant_id: default
+    default_variant_id: default # default OR disabled
     variants:
       default:
         node:
@@ -84,7 +84,7 @@ node_variants:
           inputs:
             deployment_name: gpt-35-turbo
             max_tokens: "256"
-            temperature: "0"
+            temperature: "0.00000001"
             question: ${inputs.question}
             search_result: ${rerank.output}
             chat_history: ${inputs.chat_history}
@@ -99,7 +99,7 @@ node_variants:
           inputs:
             deployment_name: gpt-35-turbo
             max_tokens: "256"
-            temperature: "0"
+            temperature: "0.00000001"
             question: ${inputs.question}
             search_result: ${rerank.output}
             chat_history: ${inputs.chat_history}
