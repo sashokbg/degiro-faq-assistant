@@ -42,7 +42,7 @@ node_variants:
           type: python
           source:
             type: code
-            path: vector_search.py
+            path: vector_search_chroma.py
           inputs:
             k_top: ${inputs.k_top}
             question: ${inputs.question}
@@ -54,7 +54,7 @@ node_variants:
             path: mock_node.py
 
   keyword_search:
-    default_variant_id: default # default OR disabled
+    default_variant_id: disabled # default OR disabled
     variants:
       default:
         node:
