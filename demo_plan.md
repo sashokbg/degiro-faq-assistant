@@ -1,10 +1,15 @@
 # Demo Plan
 
-## Present Degiro
-
-## Present FAQ Assistant
+## Present Degiro FAQ Assistant
 
 https://www.degiro.com/uk/helpdesk/
+
+## Run flow with no embeddings
+
+```shell
+pf flow test --flow no_embeddings_flow --inputs \
+  "question=Can I open an account for my child ?"
+```
 
 ## Create Embeddings
 
@@ -14,13 +19,6 @@ pf run create --flow create_embeddings --name create_embeddings --data batch_dat
 
 ```shell
 pf run visualize -n create_embeddings
-```
-
-## Run flow with no embeddings
-
-```shell
-pf flow test --flow no_embeddings_flow --inputs \
-  "question=Can I open an account for my child ?"
 ```
 
 ## Run flow with keyword search
