@@ -24,6 +24,6 @@ nodes:
     type: python
     source:
       type: code
-      path: create_embeddings.py
+      path: create_embeddings_chroma.py
     inputs:
       docs: ${chunk_text.output}
