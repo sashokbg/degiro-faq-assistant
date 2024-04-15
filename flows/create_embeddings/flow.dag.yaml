@@ -20,7 +20,16 @@ nodes:
       path: chunk_text.py
     inputs:
       source_file: ${scrap_data.output}
+
   - name: create_embeddings
+    type: python
+    source:
+      type: code
+      path: create_embeddings.py
+    inputs:
+      docs: ${chunk_text.output}
+
+  - name: create_embeddings_chroma
     type: python
     source:
       type: code

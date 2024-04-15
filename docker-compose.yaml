@@ -1,4 +1,12 @@
 services:
+  db:
+    image: pgvector/pgvector:pg16
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - "./db:/docker-entrypoint-initdb.d/"
   chromadb:
       image: chromadb/chroma
       ports:

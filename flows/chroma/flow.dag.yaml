@@ -18,18 +18,6 @@ outputs:
 nodes:
   - name: vector_search
     use_variants: true
-  - name: keyword_search
-    use_variants: true
-  - name: rerank
-    type: python
-    inputs:
-      question: ${inputs.question}
-      vector_results: ${vector_search.output}
-      keyword_results: ${keyword_search.output}
-      max: 2
-    source:
-      type: code
-      path: rerank.py
   - name: chat
     use_variants: true
 
@@ -42,35 +30,10 @@ node_variants:
           type: python
           source:
             type: code
-            path: vector_search_chroma.py
+            path: chroma_vector_search.py
           inputs:
             k_top: ${inputs.k_top}
             question: ${inputs.question}
-      disabled:
-        node:
-          type: python
-          source:
-            type: code
-            path: mock_node.py
-
-  keyword_search:
-    default_variant_id: disabled # default OR disabled
-    variants:
-      default:
-        node:
-          type: python
-          source:
-            type: code
-            path: keyword_search.py
-          inputs:
-            k_top: ${inputs.k_top}
-            question: ${inputs.question}
-      disabled:
-        node:
-          type: python
-          source:
-            type: code
-            path: mock_node.py
 
   chat:
     default_variant_id: default
@@ -86,7 +49,7 @@ node_variants:
             max_tokens: "256"
             temperature: "0.00000001"
             question: ${inputs.question}
-            search_result: ${rerank.output}
+            search_result: ${vector_search.output}
             chat_history: ${inputs.chat_history}
           api: chat
           connection: open_ai_connection
@@ -101,7 +64,7 @@ node_variants:
             max_tokens: "256"
             temperature: "0.00000001"
             question: ${inputs.question}
-            search_result: ${rerank.output}
+            search_result: ${vector_search.output}
             chat_history: ${inputs.chat_history}
           api: chat
           connection: open_ai_connection

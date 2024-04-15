@@ -2,3 +2,4 @@ pf run visualize -n "default_no_vec_no_word,default_no_vec_no_word_eval_grounded
 pf run visualize -n "default_no_vec_word,default_no_vec_word_eval_groundedness,default_no_vec_word_eval_relevance"
 pf run visualize -n "default_vec_word,default_vec_word_eval_groundedness,default_vec_word_eval_relevance"
 pf run visualize -n "few_shots_vec_word,few_shots_vec_word_eval_groundedness,few_shots_vec_word_eval_relevance"
+pf run visualize -n 'default_chroma,default_chroma_eval_groundedness,default_chroma_eval_relevance'

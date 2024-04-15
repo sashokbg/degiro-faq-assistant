@@ -1,0 +1,40 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
+inputs:
+  question:
+    type: string
+    is_chat_input: true
+    default: What is Degiro ?
+  k_top:
+    type: int
+    default: 4
+  chat_history:
+    type: list
+    default: [ ]
+outputs:
+  answer:
+    type: string
+    reference: ${chat.output}
+    is_chat_output: true
+nodes:
+  - name: keyword_search
+    type: python
+    source:
+      type: code
+      path: pg_keyword_search.py
+    inputs:
+      k_top: ${inputs.k_top}
+      question: ${inputs.question}
+  - name: chat
+    type: llm
+    source:
+      type: code
+      path: prompt.jinja2
+    inputs:
+      deployment_name: gpt-35-turbo
+      max_tokens: "256"
+      temperature: "0.00000001"
+      question: ${inputs.question}
+      search_result: ${keyword_search.output}
+      chat_history: ${inputs.chat_history}
+    api: chat
+    connection: open_ai_connection

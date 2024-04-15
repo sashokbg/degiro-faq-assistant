@@ -16,18 +16,62 @@ outputs:
     reference: ${chat.output}
     is_chat_output: true
 nodes:
+  - name: vector_search
+    use_variants: true
   - name: keyword_search
+    use_variants: true
+  - name: merge
     type: python
+    inputs:
+      question: ${inputs.question}
+      vector_results: ${vector_search.output}
+      keyword_results: ${keyword_search.output}
+      max: 2
     source:
       type: code
-      path: ../keyword_search.py
-    inputs:
-      k_top: ${inputs.k_top}
-      question: ${inputs.question}
+      path: merge.py
   - name: chat
     use_variants: true
 
 node_variants:
+  vector_search:
+    default_variant_id: default # default OR disabled
+    variants:
+      default:
+        node:
+          type: python
+          source:
+            type: code
+            path: pg_vector_search.py
+          inputs:
+            k_top: ${inputs.k_top}
+            question: ${inputs.question}
+      disabled:
+        node:
+          type: python
+          source:
+            type: code
+            path: mock_node.py
+
+  keyword_search:
+    default_variant_id: disabled # default OR disabled
+    variants:
+      default:
+        node:
+          type: python
+          source:
+            type: code
+            path: keyword_search.py
+          inputs:
+            k_top: ${inputs.k_top}
+            question: ${inputs.question}
+      disabled:
+        node:
+          type: python
+          source:
+            type: code
+            path: mock_node.py
+
   chat:
     default_variant_id: default
     variants:
@@ -36,13 +80,13 @@ node_variants:
           type: llm
           source:
             type: code
-            path: ../prompt.jinja2
+            path: prompt.jinja2
           inputs:
             deployment_name: gpt-35-turbo
             max_tokens: "256"
             temperature: "0.00000001"
             question: ${inputs.question}
-            search_result: ${keyword_search.output}
+            search_result: ${merge.output}
             chat_history: ${inputs.chat_history}
           api: chat
           connection: open_ai_connection
@@ -51,13 +95,13 @@ node_variants:
           type: llm
           source:
             type: code
-            path: ../prompt_few_shots.jinja2
+            path: prompt_few_shots.jinja2
           inputs:
             deployment_name: gpt-35-turbo
             max_tokens: "256"
             temperature: "0.00000001"
             question: ${inputs.question}
-            search_result: ${keyword_search.output}
+            search_result: ${merge.output}
             chat_history: ${inputs.chat_history}
           api: chat
           connection: open_ai_connection

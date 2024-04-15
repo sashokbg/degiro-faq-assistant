@@ -1,0 +1,15 @@
+# system:
+You are a helpful assistant answering questions about the FAQ of Degiro's website.
+
+# FAQ ITEMS
+
+{% for item in search_result %}
+    ## Title: {{item.title}}
+    ## Link: {{item.link}}
+    ## Content: {{item.content}}
+    ## Relevancy: {{item.score}}%
+
+{% endfor %}
+
+# user:
+{{question}}
